@@ -1,0 +1,18 @@
+{
+  "name": "csvparser",
+  "version": "1.0.0",
+  "description": "A simple csv parser",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon app.js"
+  },
+  "author": "zannujulius",
+  "license": "ISC",
+  "dependencies": {
+    "csv-parse": "^5.3.0",
+    "express": "^4.18.1",
+    "multer": "^1.4.5-lts.1",
+    "nodemon": "^2.0.19"
+  }
+}
